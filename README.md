@@ -3,6 +3,19 @@ promise monofill
 This module exports native Promise. Always.
 If it doesn't exist it throws an exception.
 
+Installation
+------------
+```sh
+npm install promise-monofill --save
+```
+
+Usage
+-----
+```js
+var P = require('promise-monofill');
+P.resolve(123).then(console.log);
+```
+
 Issues
 ------
 For any bug reports or feature requests please

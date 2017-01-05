@@ -1,6 +1,6 @@
 promise monofill
 =
-This module that exports native Promise. Always.
+This module exports native Promise. Always.
 If it doesn't exist it throws an exception.
 
 Issues
